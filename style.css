@@ -15,13 +15,13 @@ header {
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 5em; /* Larger font size */
     margin: 0;
     color: #FFD700; /* Golden color */
 }
 
 header p {
-    font-size: 1.5em;
+    font-size: 2em; /* Larger font size */
     color: #fff;
 }
 
@@ -29,14 +29,14 @@ header p {
 .section {
     background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background */
     margin: 20px auto;
-    padding: 30px;
+    padding: 40px;
     width: 80%;
     max-width: 1200px;
     border-radius: 10px;
 }
 
 h2 {
-    font-size: 2.5em;
+    font-size: 3em; /* Larger font size for headings */
     margin-bottom: 20px;
     color: #FFD700; /* Golden color */
     text-align: center;
@@ -45,7 +45,7 @@ h2 {
 ul {
     list-style-type: none;
     padding-left: 0;
-    font-size: 1.2em;
+    font-size: 1.5em; /* Larger font size for list items */
 }
 
 ul li {
@@ -54,7 +54,7 @@ ul li {
 
 /* Contact info */
 #contact p {
-    font-size: 1.5em;
+    font-size: 2em; /* Larger font size for contact info */
     text-align: center;
 }
 
@@ -73,25 +73,29 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px;
-    font-size: 1.2em;
+    font-size: 1.5em; /* Larger font size for footer */
 }
 
 /* Responsive styling */
 @media screen and (max-width: 768px) {
     header h1 {
-        font-size: 3em;
+        font-size: 4em; /* Adjust size for smaller screens */
     }
 
     header p {
-        font-size: 1.2em;
+        font-size: 1.5em;
     }
 
     h2 {
-        font-size: 2em;
+        font-size: 2.5em;
     }
 
     .section {
         padding: 20px;
         width: 90%;
+    }
+
+    ul {
+        font-size: 1.2em;
     }
 }
