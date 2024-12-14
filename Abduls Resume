@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdulrehman - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Abdulrehman</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi! I'm Abdulrehman, a college student pursuing a degree in Business Administration at HVCC...</p>
+    </section>
+    <section id="resume">
+        <h2>Resume</h2>
+        <p>I'm actively working on gaining professional experience through internships and projects...</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Info</h2>
+        <p>Email: <a href="mailto:a-rehman4@hvcc.edu">a-rehman4@hvcc.edu</a></p>
+    </section>
+    <section id="hobbies">
+        <h2>Hobbies & Interests</h2>
+        <ul>
+            <li>Learning about new technologies and startups</li>
+            <li>Reading business books</li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 Abdulrehman</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f9;
+}
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+}
+header h1 {
+    margin: 0;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #333;
+    color: #fff;
+}
