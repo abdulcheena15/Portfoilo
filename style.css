@@ -1,10 +1,9 @@
-
 /* Global styles */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: url('https://images.unsplash.com/photo-1501491223039-e4f4fe2322b6') no-repeat center center fixed; /* Random business image from Unsplash */
+    background: url('https://img.freepik.com/premium-photo/top-view-resumes-applicants-magnifying-glass-green-background-job-search-concept_35674-13811.jpg') no-repeat center center fixed;
     background-size: cover;
     color: #fff;
 }
